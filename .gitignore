@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.env
+.venv
+venv/
+
+# Testing & caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.hypothesis/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Audio / model artifacts (large binaries)
+*.wav
+*.mp3
+*.flac
+*.onnx
+*.gguf
+*.bin
+*.safetensors
+models/
+
+# Runtime
+.whisper-agent/
+recordings/
+transcripts/
+*.log
